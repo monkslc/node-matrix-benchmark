@@ -4,13 +4,13 @@
 Benchmark results are stored in the `results` dir as text files
 
 ### Running the benchmarks
-**Every benchmark: **
+**Every benchmark:**
 `npm run all-bench`
 
-**Mathjs benchmarks: **
+**Mathjs benchmarks:**
 `npm run mathjs-bench`
 
-**Tensorflowjs benchmarks: **
+**Tensorflowjs benchmarks:**
 `npm run tensorflowjs-bench`
 
 The results of the benchmark get stored in the `results` dir
