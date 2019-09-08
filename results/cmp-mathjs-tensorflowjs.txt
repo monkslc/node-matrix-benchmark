@@ -1,0 +1,10 @@
+                         name-iterations        library       time(ms)        library       time(ms)
+             mult-2d-matrix(5x5)-1000000         mathjs           2961   tensorflowjs          79443
+             mult-2d-matrix(250x250)-100         mathjs          27880   tensorflowjs             32
+             mult-2d-matrix(1000x1000)-1         mathjs          38027   tensorflowjs              6
+      create-mult-2d-matrix(5x5)-1000000         mathjs           6823   tensorflowjs          92657
+      create-mult-2d-matrix(250x250)-100         mathjs          27962   tensorflowjs            863
+      create-mult-2d-matrix(1000x1000)-1         mathjs          38173   tensorflowjs            211
+        transpose-2d-matrix(5x5)-1000000         mathjs            506   tensorflowjs          19871
+        transpose-2d-matrix(250x250)-100         mathjs            102   tensorflowjs             17
+        transpose-2d-matrix(1000x1000)-1         mathjs             56   tensorflowjs              1

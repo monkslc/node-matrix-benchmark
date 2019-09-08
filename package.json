@@ -1,0 +1,20 @@
+{
+  "name": "node-matrix-benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+		"mathjs-bench": "node src/mathjs/run.js | awk -f format-results > ./results/mathjs.txt",
+		"tensorflowjs-bench": "node src/tensorflowjs/run.js | awk -f format-results > ./results/tensorflowjs.txt",
+		"all-bench": "npm run mathjs-bench; npm run tensorflowjs-bench",
+		"cmp-bench": "join results/mathjs.txt results/tensorflowjs.txt | awk -f format-results > results/cmp-mathjs-tensorflowjs.txt"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mathjs": "^6.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+	for(i=0;i<=NF;i++){
+		if (i==1) {
+			printf "%40s",$i
+		} else if (i!=0) {
+			printf "%15s",$i
+		}
+	}
+	printf "%s", "\n"
+}
